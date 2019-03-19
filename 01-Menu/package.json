@@ -1,0 +1,20 @@
+{
+  "name": "menu-with-bulma",
+  "version": "0.1.0",
+  "description": "Menu CSS created with Bulma CSS Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "bulma",
+    "sass"
+  ],
+  "author": "@bidkarAragon",
+  "license": "MIT",
+  "dependencies": {
+    "bulma": "^0.7.4"
+  }
+}
