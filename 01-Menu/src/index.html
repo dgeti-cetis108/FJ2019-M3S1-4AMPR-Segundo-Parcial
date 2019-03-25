@@ -12,7 +12,7 @@
 <body>
     <header id="encabezado">
         <!-- Inicio NavBar -->
-        <nav class="navbar is-warning" role="navigation" aria-label="main navigation">
+        <nav class="navbar is-link is-fixed-top" role="navigation" aria-label="main navigation">
             <div class="container">
                 <!-- Inicio NavBar-Brand -->
                 <div class="navbar-brand">
@@ -32,7 +32,7 @@
                         <div class="navbar-item has-dropdown is-hoverable">
                             <a class="navbar-link">
                                 <span>
-                                    <i class="fas fa-school has-text-link"></i> Plantel
+                                    <i class="fas fa-school"></i> Plantel
                                 </span>
                             </a>
                             <div class="navbar-dropdown is-boxed">
@@ -60,15 +60,18 @@
                     </div>
                     <div class="navbar-end">
                         <div class="navbar-item has-dropdown is-hoverable">
-                            <a class="navbar-link">
-                                Acerca de
+                            <a class="navbar-link is-arrowless">
+                                <span>
+                                    <i class="fas fa-info-circle"></i>
+                                    Acerca de
+                                </span>
                             </a>
-                            <div class="navbar-dropdown is-boxed">
+                            <div class="navbar-dropdown is-boxed is-right">
                                 <a class="navbar-item">
                                     <span>
                                         <strong>Guasave</strong>
                                         <br>
-                                        Breve historia de<br>Guasave, Sinaloa
+                                        Breve historia de Guasave, Sinaloa
                                     </span>
                                 </a>
                                 <hr class="navbar-divider">
@@ -76,7 +79,7 @@
                                     <span>
                                         <strong>DGETI</strong>
                                         <br>
-                                        Historia de<br>DGETI
+                                        Historia de DGETI
                                     </span>
                                 </a>
                             </div>
@@ -88,6 +91,9 @@
         </nav>
         <!-- Fin NavBar -->
     </header>
+    <section class="hero is-fullheight is-primary"></section>
+    <section class="hero is-fullheight is-danger"></section>
+    <section class="hero is-fullheight is-warning"></section>
 </body>
 
 </html>
