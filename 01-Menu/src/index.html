@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Menu del CETis108</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="js/app.js"></script>
 </head>
 
 <body>
@@ -19,7 +20,7 @@
                     <a class="navbar-item">
                         CETis108
                     </a>
-                    <a class="navbar-burger" role="button" aria-label="main" aria-expanded="false">
+                    <a class="navbar-burger" role="button" aria-label="main" aria-expanded="false" data-target="navMenu">
                         <span aria-hidden="true"></span>
                         <span aria-hidden="true"></span>
                         <span aria-hidden="true"></span>
@@ -27,7 +28,7 @@
                 </div>
                 <!-- Fin NavBar-Brand -->
                 <!-- Inicio NavBar-Menu -->
-                <div class="navbar-menu">
+                <div class="navbar-menu" id="navMenu">
                     <div class="navbar-start">
                         <div class="navbar-item has-dropdown is-hoverable">
                             <a class="navbar-link">
@@ -94,6 +95,13 @@
     <section class="hero is-fullheight is-primary"></section>
     <section class="hero is-fullheight is-danger"></section>
     <section class="hero is-fullheight is-warning"></section>
+
+    <!-- Seccion para scripts -->
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        toggleMenu()
+    })
+    </script>
 </body>
 
 </html>
