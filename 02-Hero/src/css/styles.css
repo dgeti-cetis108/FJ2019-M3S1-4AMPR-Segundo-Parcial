@@ -1,0 +1,11 @@
+@import "bulma.css";
+
+.center {
+  margin: 0 auto;
+}
+
+.hero {
+  background-image: url(../images/fondo-cetis108.png);
+  background-size: cover;
+  background-position: right;
+}
